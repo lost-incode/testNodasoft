@@ -1,0 +1,25 @@
+.block-2 {
+  background-color: $block-2-bg;
+  padding: 30px;
+  margin-bottom: 100px;
+}
+
+.block-2__list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 30px;
+  padding: 0;
+  margin: 0;
+  height: 255px;
+
+  @media (max-width: ($desktop-width - 1px)) {
+    height: 22vw;
+  }
+}
+
+.block-2__item {
+  display: block;
+  background-color: $block-2-item;
+  width: 100%;
+}

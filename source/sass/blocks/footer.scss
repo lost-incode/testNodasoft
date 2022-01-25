@@ -1,0 +1,11 @@
+.footer {
+  min-height: 100px;
+  position: sticky;
+  top: 100vh;
+}
+
+.footer__content {
+  display: block;
+  background-color: $main-bg;
+  min-height: 100px;
+}

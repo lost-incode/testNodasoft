@@ -1,0 +1,21 @@
+.header {
+  padding: 30px;
+  box-sizing: border-box;
+  min-height: 100px;
+  background-color: $main-bg;
+  margin-bottom: 15px;
+}
+
+.header__link {
+  background-color: $header-link-bg;
+  padding: 8px 15px;
+  color: $basic-white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 20px;
+  line-height: 23px;
+
+  &:hover {
+    opacity: 0.5;
+  }
+}
