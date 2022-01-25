@@ -1,6 +1,9 @@
 # testNodasoft
 тестовое задание на позицию HTML-верстальщика
 
+## Build Setup
+
+``` bash
 #install dependencies
 npm i
 
@@ -9,3 +12,4 @@ npm start
 
 #build for production with minification
 npm run build
+```
